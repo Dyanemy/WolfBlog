@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "name": "asp.net",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "5.3.0-alpha3",
+    "vendor": "^1.7.0"
+  },
+  "scripts": {
+    "scss": "node-sass --output-style nested --indent-type tab --indent-width 4 -o wwwroot/css wwwroot/silicon/scss"
+  },
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
